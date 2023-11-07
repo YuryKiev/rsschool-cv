@@ -1,9 +1,9 @@
 # CV
 1. Full Name
-- Kiyeu Yury 
+- Kiyeu Yury
 2. Contact Information
-- [Email](yury19981@gmail.com) 
-- [telegram](https://t.me/YuryKiev) 
+- [Email](yury19981@gmail.com)
+- [telegram](https://t.me/YuryKiev)
 3. Brief Self-Introduction
 - To my goals includes mastering the frontend and applying the acquired knowledge in practice, is always ready to support a conversation on various topics, including being ready to help others to the best of his ability
 4. Skill
@@ -20,13 +20,13 @@ elif d>a and d < b and c<=a:
 elif a >= c and b <= d:
     print(a, b)
 elif a <= c and d <= b:
-    print(c, d)    
+    print(c, d)
 elif a == c or b == c:
     print(c)
 elif a == d or b == d:
     print(d)
 else:
-    print("no intersections") 
+    print("no intersections")
 ```
 6. Work Experience
 - no work experience at the moment
