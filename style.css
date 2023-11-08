@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+}
+h1 {
+    color: rgb(255, 81, 0);
+}
+h2 {
+    color:rgba(136, 35, 219, 0.877);
+}
+p {
+    font-size: 17px;
+}
+.title {
+    color: rgb(3, 63, 63);
+    font-family:Arial, Helvetica, sans-serif;
+}
