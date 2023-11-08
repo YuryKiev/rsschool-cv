@@ -31,21 +31,18 @@
     <h2>5. Code Examples</h2>
         <pre>
         <code>
-            a, b, c, d = int(input()), int(input()), int(input()), int(input())
-            if c > a and c< b and b<=d:
-                print(c, b)
-            elif d>a and d < b and c<=a:
-                print(a, d)
-            elif a >= c and b <= d:
-                print(a, b)
-            elif a <= c and d <= b:
-                print(c, d)
-            elif a == c or b == c:
-                print(c)
-            elif a == d or b == d:
-                print(d)
-            else:
-                print("no intersections")
+            def generate_ip():
+                import random
+                result = ''
+                
+                for i in range(4):
+                    num = random.randint(0, 255)
+                    result += ''.join(str(num))
+                    if i == 3:
+                        break
+                    result += '.'
+                    
+                return result
         </code>
         </pre>
     <h2>6. Work Experience</h2>
