@@ -28,14 +28,14 @@
             def generate_ip():
                 import random
                 result = ''
-                
+
                 for i in range(4):
                     num = random.randint(0, 255)
                     result += ''.join(str(num))
                     if i == 3:
                         break
                     result += '.'
-                    
+
                 return result
         </code>
         </pre>
